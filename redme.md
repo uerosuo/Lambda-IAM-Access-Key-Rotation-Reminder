@@ -1,4 +1,4 @@
-# to install apython package
+# to install a python package
 pip install <package name>
 
 pip install boto3
