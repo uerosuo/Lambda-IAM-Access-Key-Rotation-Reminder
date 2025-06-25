@@ -10,9 +10,9 @@ ses_client = boto3.client('ses')
 expiry_days = 18
 reminder_days = 5
 reminder_email_age = expiry_days - reminder_days
-username = "cliuser-akhilesh"
-To_email = "aditiyamishranit@gmail.com"
-From_email =  "akhileshmishra121990@gmail.com"
+username = "DevOps"
+To_email = "16weeksofdevops@proton.me"
+From_email =  "ideploy@proton.me"
 
 # a function that get username as input, and return access keys and age 
 def get_access_keys_age(username):
